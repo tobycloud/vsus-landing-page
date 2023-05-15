@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <title>vSuS</title>
-</head>
+  </head>
 
-<body>
-    <img id="logo" src="assets/images/logo.svg" alt="vSuS Logo">
-    <style>
+  <body>
+    <section id="view-1">
+      <div style="height: 10vh"></div>
+      <img id="logo" src="assets/images/logo.svg" alt="vSuS Logo" />
+      <style>
         #logo {
-            display: block;
-            right: auto;
-            left: auto;
-            width: 50vw;
+          display: block;
+          height: 35vh;
+          margin: auto;
         }
-    </style>
-</body>
+      </style>
 
+      <div style="height: 5vh"></div>
+
+      <h1 id="title-text" style="text-align: center; font-size: 5vh; margin: 0">
+        vSuS - Feels like home everywhere, anytime, for everyone
+      </h1>
+    </section>
+
+    <div id="filler-1"></div>
+    <script>
+      document.getElementById("filler-1").style.height =
+        window.innerHeight -
+        document.getElementById("view-1").offsetHeight +
+        "px";
+    </script>
+
+    <section id="view-2">
+      <!-- Content here thx -->
+    </section>
+  </body>
 </html>
