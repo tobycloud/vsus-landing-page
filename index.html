@@ -19,11 +19,13 @@
     />
     <meta name="theme-color" content="#2b2d31" />
 
+    <link rel="stylesheet" href="assets/css/global.css" />
+
     <title>vSuS</title>
   </head>
 
   <body>
-    <section id="view-1">
+    <section id="view-1" style="height: 100vh">
       <div style="height: 10vh"></div>
       <img id="logo" src="assets/images/logo.svg" alt="vSuS Logo" />
       <style>
@@ -36,21 +38,42 @@
 
       <div style="height: 5vh"></div>
 
-      <h1 id="title-text" style="text-align: center; font-size: 5vh; margin: 0">
-        vSuS - Feels like home everywhere, anytime, for everyone
-      </h1>
+      <p class="center-text" style="font-size: 5vh; margin: 0">
+        Deployable VM-like coding environments, access from anywhere, for
+        everyone
+      </p>
+      <p class="center-text" style="font-size: 3vh; margin: 0">
+        Think of it like Replit, but with more features and more freedom
+      </p>
     </section>
 
-    <div id="filler-1"></div>
-    <script>
-      document.getElementById("filler-1").style.height =
-        window.innerHeight -
-        document.getElementById("view-1").offsetHeight +
-        "px";
-    </script>
-
-    <section id="view-2">
-      <!-- Content here thx -->
+    <section
+      id="view-2"
+      style="
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <img
+        src="https://i.ibb.co/h8cSYJQ/image.png"
+        alt="Visual Studio Code on the web"
+        style="
+          height: 40vh;
+          border-radius: 40px;
+          overflow: hidden;
+          margin-right: 5vw;
+        "
+      />
+      <div style="display: block; width: 25vw">
+        <p style="font-size: 2vw">Integrated Visual Studio Code on the Web</p>
+        <p style="font-size: 1vw">
+          Visual Studio Code on the web is a great tool for developers due to
+          its accessibility from any device, collaborative features, extensive
+          extension ecosystem, and user-friendly interface.
+        </p>
+      </div>
     </section>
   </body>
 </html>
