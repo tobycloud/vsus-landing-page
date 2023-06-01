@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,12 +21,16 @@
     <title>vSuS</title>
   </head>
   <body>
-    <section class="topBar">
-      <div>
-        <img src="img/icon/TobyCloudLogo.png" />
-        <h3>TobyCloud</h3>
-      </div>
-      <button id="darkmodeButton" class="dark-mode-for-button" onclick="darkmode()">Dark Mode</button>
+    <section id="bar">
+      <section class="barInside">
+        <div>
+          <img src="img/icon/TobyCloudLogo.png" />
+          <h3>TobyCloud</h3>
+        </div>
+        <button id="darkmodeButton" class="dark-mode-for-button" onclick="darkmode()"><span id="darkmodeIcon" class="material-symbols-outlined">
+          dark_mode
+          </span></button>
+      </section>
     </section>
     <header>
       <div id="vSuSTitle">
@@ -44,11 +49,22 @@
       <div>
         <h2>Integrated Visual Studio Code on the Web</h2>
         <p>
-          Visual Studio Code on the web is a great tool for developers due to
+          Visual Studio Code on the Web is a great tool for developers due to
           its accessibility from any device, collaborative features, extensive
           extension ecosystem, and user-friendly interface.
         </p>
       </div>
+    </section>
+    <section id="bar" style="background-color: black;">
+      <section class="barInside">
+        <h6>Copyright © 2023 TobyCloud™. All rights reserved.</h6>
+        <h6>
+          <a href="">Privacy Policy</a> | 
+          <a href="">Terms of Use</a> | 
+          <a href="">Legal</a>
+        </h6>
+        <h6>Canada</h6>
+      </section>
     </section>
   </body>
 </html>

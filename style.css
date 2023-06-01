@@ -7,30 +7,33 @@ body {
     font-family: 'Geologica', sans-serif;
 }
 
-.topBar {
-    width: 100%;
+#bar {
+    color: white;
     background-color: #1e1e1e;
+    padding: 0 2vw 0 2vw;
+}
+
+.barInside {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.topBar div {
+.barInside div {
     display: flex;
     align-items: center;
 }
 
-.topBar button {
+.barInside button {
     float: right;
     border: none;
     padding: 5px;
     border-radius: 10px;
-    margin: 1vw 1vw;
 }
 
-.topBar img {
+.barInside img {
     height: 10vh;
-    margin: 0 0 0 1vw;
 }
 
 .dark-mode {
@@ -51,9 +54,14 @@ body {
 header {
     padding: 4vh 0 4vh 0;
     color: white;
-    background: rgb(107,24,4);
-    background: radial-gradient(circle, rgba(107,24,4,1) 0%, rgba(30,30,30,1) 100%);
+    background: rgb(74,13,0);
+    background: radial-gradient(circle, rgba(74,13,0,1) 0%, rgba(30,30,30,1) 100%);
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header #vSuSTitle {
@@ -85,7 +93,6 @@ h2 {
 
 h3 {
     padding: 0 1vw 0 1vw;
-    color: white;
 }
 
 #view-1 {
