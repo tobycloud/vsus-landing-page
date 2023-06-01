@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="logo.svg" />
-
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <meta property="og:title" content="vSuS" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://vsus.tobycm.systems" />
@@ -18,58 +19,31 @@
 
     <title>vSuS</title>
   </head>
-
-  <style>
-    .center-text {
-      text-align: center;
-    }
-  </style>
-
-  <body style="color: #fff; background-color: #1e1e1e">
-    <section id="view-1" style="height: 100vh">
-      <div style="height: 10vh"></div>
-      <img id="logo" src="logo.svg" alt="vSuS Logo" />
-      <style>
-        #logo {
-          display: block;
-          height: 35vh;
-          margin: auto;
-        }
-      </style>
-
-      <div style="height: 5vh"></div>
-
-      <p class="center-text" style="font-size: 5vh; margin: 0">
-        Deployable VM-like coding environments, access from anywhere, for
-        everyone
-      </p>
-      <p class="center-text" style="font-size: 3vh; margin: 0">
-        Think of it like Replit, but with more features and more freedom
-      </p>
+  <body>
+    <section class="topBar">
+      <div>
+        <img src="/img/icon/TobyCloudLogo.png" />
+        <h3>TobyCloud</h3>
+      </div>
+      <button id="darkmodeButton" class="dark-mode-for-button" onclick="darkmode()">Dark Mode</button>
     </section>
-
-    <section
-      id="view-2"
-      style="
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      "
-    >
+    <header>
+      <div id="vSuSTitle">
+        <img id="logo" src="logo.svg" alt="vSuS Logo"/>
+        <h1>vSuS</h1>
+      </div>
+      <p class="center-text">
+        Deployable VM-like coding environments, access from anywhere, for everyone.
+      </p>
+    </header>
+    <section id="view-1">
       <img
-        src="vscode.png"
+        src="/img/vscode.png"
         alt="Visual Studio Code on the web"
-        style="
-          height: 40vh;
-          border-radius: 40px;
-          overflow: hidden;
-          margin-right: 5vw;
-        "
       />
-      <div style="display: block; width: 25vw">
-        <p style="font-size: 2vw">Integrated Visual Studio Code on the Web</p>
-        <p style="font-size: 1vw">
+      <div>
+        <h2>Integrated Visual Studio Code on the Web</h2>
+        <p>
           Visual Studio Code on the web is a great tool for developers due to
           its accessibility from any device, collaborative features, extensive
           extension ecosystem, and user-friendly interface.

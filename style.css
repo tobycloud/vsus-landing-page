@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: 'Geologica', sans-serif;
+}
+
+.topBar {
+    width: 100%;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBar div {
+    display: flex;
+    align-items: center;
+}
+
+.topBar button {
+    float: right;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 1vw 1vw;
+}
+
+.topBar img {
+    height: 10vh;
+    margin: 0 0 0 1vw;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode-for-button {
+    background-color: #303030;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+header {
+    padding: 4vh 0 4vh 0;
+    color: white;
+    background: rgb(107,24,4);
+    background: radial-gradient(circle, rgba(107,24,4,1) 0%, rgba(30,30,30,1) 100%);
+    text-align: center;
+}
+
+header #vSuSTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+header img {
+    width: 10vw;
+}
+
+#header-text {
+    margin: 5vw;
+}
+
+h1 {
+    padding: 0 2vw 0 2vw;
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    padding: 0 1vw 0 1vw;
+    color: white;
+}
+
+#view-1 {
+    margin: 10vh 5vw 10vh 5vw;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3vw;
+}
+
+#view-1 img {
+    width: 50vw;
+}
+
+#view-1 h2 {
+    font-size: 3vh;
+}
