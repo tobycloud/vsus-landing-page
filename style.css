@@ -7,6 +7,24 @@ body {
     font-family: 'Geologica', sans-serif;
 }
 
+h1 {
+    padding: 0 2vw 0 2vw;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    padding: 0 1vw 0 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #bar {
     color: white;
     background-color: #1e1e1e;
@@ -17,7 +35,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .barInside div {
@@ -25,15 +43,8 @@ body {
     align-items: center;
 }
 
-.barInside button {
-    float: right;
-    border: none;
-    padding: 5px;
-    border-radius: 10px;
-}
-
 .barInside img {
-    height: 10vh;
+    height: 80px;
 }
 
 .dark-mode {
@@ -42,6 +53,10 @@ body {
 }
 
 .dark-mode-for-button {
+    float: right;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
     background-color: #303030;
     color: white;
 }
@@ -54,14 +69,8 @@ body {
 header {
     padding: 4vh 0 4vh 0;
     color: white;
-    background: rgb(74,13,0);
-    background: radial-gradient(circle, rgba(74,13,0,1) 0%, rgba(30,30,30,1) 100%);
+    background: black;
     text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 header #vSuSTitle {
@@ -70,43 +79,30 @@ header #vSuSTitle {
     justify-content: center;
 }
 
-p {
-    font-size: 1.5vw;
+header p {
+    font-size: 25px;
 }
 
 header img {
-    width: 10vw;
+    width: 150px;
 }
 
 #header-text {
     margin: 5vw;
 }
 
-h1 {
-    padding: 0 2vw 0 2vw;
-    font-size: 4vw;
-}
-
-h2 {
-    font-size: 3vw;
-}
-
-h3 {
-    padding: 0 1vw 0 1vw;
-}
-
-#view-1 {
-    margin: 10vh 5vw 10vh 5vw;
+#view {
+    margin: 10vh 10vw 10vh 10vw;
     display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 3vw;
 }
 
-#view-1 img {
-    width: 50vw;
+#view img {
+    width: 800px;
 }
 
-#view-1 h2 {
-    font-size: 3vh;
+#view p {
+    font-size: 20px;
 }
