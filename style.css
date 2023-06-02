@@ -108,14 +108,14 @@ footer section {
 }
 
 #view img {
-    width: 800px;
+    width: 1000px;
 }
 
 #view p {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1280px) {
     #view {
         flex-direction: column;
     }
@@ -139,5 +139,23 @@ footer section {
     }
     footer p {
         font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1280px) {
+    #view img {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #view img {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #view img {
+        width: 250px;
     }
 }
