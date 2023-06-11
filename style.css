@@ -115,6 +115,49 @@ footer section {
     font-size: 20px;
 }
 
+table {
+    margin: 10vh auto 10vh auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table #features {
+    text-align: left;
+}
+
+tr { 
+    border: 2px solid #c2c2c2;
+    border-width: 1px 0;
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding-top:10px;
+    padding-bottom:10px; 
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.plans_buy_button {
+    font-family: 'Geologica', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 1280px) {
     #view {
         flex-direction: column;
