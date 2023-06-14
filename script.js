@@ -1,6 +1,8 @@
 let darkmodeStatus = 0;
 function darkmode() {
     var button = document.getElementById('darkmodeButton');
+    document.getElementById('pro').classList.toggle('light-mode');
+    document.getElementById('god').classList.toggle('light-mode');
     button.classList.toggle('light-mode');
     if (darkmodeStatus === 0){
         document.getElementById('darkmodeIcon').textContent = 'light_mode';
